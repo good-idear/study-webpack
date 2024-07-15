@@ -1,0 +1,29 @@
+{
+  "name": "packagea",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "wuxueqiang <wuxueqiang@kuaishou.com>",
+  "homepage": "https://github.com/good-idear/study-webpack#readme",
+  "license": "ISC",
+  "main": "src/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://npm.corp.kuaishou.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/good-idear/study-webpack.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/good-idear/study-webpack/issues"
+  }
+}
